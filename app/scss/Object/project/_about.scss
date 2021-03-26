@@ -1,0 +1,77 @@
+.p-about {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+
+  &__title {
+    margin-top: 20px;
+  }
+
+  &__commentWrapper {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__upperComment,
+  &__lowerComment {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqMd() {
+  .p-about {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+
+    &__title {
+      margin-top: 20px;
+    }
+
+    &__commentWrapper {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    &__upperComment,
+    &__lowerComment {
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}
+
+// ===================================
+// Media Querie min 1024px
+// ===================================
+
+@include mqLg() {
+  .p-about {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+
+    &__title {
+      margin-top: 20px;
+    }
+
+    &__commentWrapper {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    &__upperComment,
+    &__lowerComment {
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+// ===================================
+// Colour
+// ===================================
+
+$topMainColor: #314a67;
+$topSubColor: #292b33;
+$fontColor: #ffffff;
+
+// ===================================
+// Fonts
+// ===================================
+
+$fontHead: 'Playfair+Display';
+$fontMain: 'Montserrat';
+
+// ===================================
+// Media Queries
+// ===================================
+
+// Define the lower bound for each media size
+$breakpoints: (
+  'sm': 'screen and (min-width: 599px)',
+  'md': 'screen and (min-width: 600px)',
+  'lg': 'screen and (min-width: 1025px)',
+) !default;

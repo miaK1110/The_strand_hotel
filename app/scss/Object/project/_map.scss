@@ -1,0 +1,46 @@
+.map {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  clear: both;
+  iframe {
+    vertical-align: bottom;
+  }
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqMd() {
+  .map {
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    clear: both;
+
+    iframe {
+      vertical-align: bottom;
+      width: 100%;
+      max-width: 100%;
+      height: 520px;
+    }
+  }
+}
+// ===================================
+// Media Querie min 1024px
+// ===================================
+@include mqLg() {
+  .map {
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    clear: both;
+    iframe {
+      vertical-align: bottom;
+      width: 100%;
+      max-width: 100%;
+      height: 520px;
+    }
+  }
+}

@@ -1,0 +1,123 @@
+.c-panel {
+  width: 100%;
+  text-align: center;
+
+  &__title {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  &__img {
+    width: 100%;
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: 0.5s;
+    }
+  }
+  &__comment {
+    display: inline-block;
+    text-align: center;
+    padding: 30px 0;
+  }
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqMd() {
+  .c-panel {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 300px;
+    display: flex;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    &__img {
+      width: 50%;
+      height: 250px;
+      transition: 0.5s;
+      align-self: flex-end;
+
+      &:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: 0.5s;
+      }
+    }
+
+    &__comment__wrapper {
+      display: inline-block;
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      margin: 0 20px;
+
+      &__title {
+        font-size: 20px;
+      }
+
+      &__comment {
+        display: block;
+        font-size: 12px;
+        padding-top: 50px;
+      }
+    }
+  }
+}
+// ===================================
+// Media Querie min 1024px
+// ===================================
+
+@include mqLg() {
+  .c-panel {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 300px;
+    display: flex;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    &__img {
+      width: 50%;
+      height: 250px;
+      transition: 0.5s;
+      align-self: flex-end;
+
+      &:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: 0.5s;
+      }
+    }
+
+    &__comment__wrapper {
+      display: inline-block;
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      margin: 0 20px;
+
+      &__title {
+        font-size: 20px;
+      }
+
+      &__comment {
+        display: block;
+        font-size: 12px;
+        padding-top: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.u-verticalBar {
+  margin: 0 auto;
+  width: 1px;
+  height: 100px;
+  background-color: $topSubColor;
+}
+
+.u-horizonalBar {
+  margin: 0 auto;
+  width: 90%;
+  height: 1px;
+  background-color: $fontColor;
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqMd() {
+  .u-verticalBar {
+    margin: 0 auto;
+    width: 1px;
+    height: 120px;
+    background-color: $topSubColor;
+  }
+}
+// ===================================
+// Media Querie min 1024px
+// ===================================
+@include mqLg() {
+  .u-verticalBar {
+    margin: 0 auto;
+    width: 1px;
+    height: 150px;
+    background-color: $topSubColor;
+  }
+}

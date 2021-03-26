@@ -1,0 +1,32 @@
+.p-facilities-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqMd() {
+  .p-facilities-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqLg() {
+  .p-facilities-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

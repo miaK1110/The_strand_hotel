@@ -1,0 +1,67 @@
+.header {
+  height: 80px;
+  background-color: $topMainColor;
+  padding: fixed;
+  .l-header__logo {
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    left: 5%;
+  }
+  &.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(49, 74, 103, 0.4);
+    z-index: 1000;
+  }
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqMd() {
+  .header {
+    height: 80px;
+    background-color: $topMainColor;
+    .l-header__logo {
+      position: absolute;
+      height: 90px;
+      width: 100px;
+      top: 5px;
+      left: 5%;
+    }
+    &.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(49, 74, 103, 0.4);
+      z-index: 1000;
+    }
+  }
+}
+// ===================================
+// Media Querie min 1024px
+// ===================================
+
+@include mqLg() {
+  .header {
+    height: 100px;
+    background-color: $topMainColor;
+    .l-header__logo {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      top: 5px;
+      left: 5%;
+    }
+    &.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(49, 74, 103, 0.4);
+      z-index: 1000;
+    }
+  }
+}

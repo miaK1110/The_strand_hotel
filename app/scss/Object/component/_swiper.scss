@@ -1,0 +1,67 @@
+.swiper-container {
+  width: 100%;
+  position: relative;
+  height: 300px;
+  .swiper-slide {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 80%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+// ===================================
+// Media Querie For Tablet
+// ===================================
+
+@include mqMd() {
+  .swiper-container {
+    width: 100%;
+    position: relative;
+    height: 350px;
+    .swiper-slide {
+      width: auto;
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 60%;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
+}
+
+// ===================================
+// Media Querie For PC
+// ===================================
+
+@include mqLg() {
+  .swiper-container {
+    width: 100%;
+    position: relative;
+    height: 350px;
+
+    .swiper-slide {
+      width: auto;
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 60%;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
+}

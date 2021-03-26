@@ -1,0 +1,31 @@
+.restaurant {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqMd() {
+  .restaurant {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 60px;
+    height: 800px;
+  }
+}
+// ===================================
+// Media Querie min 1024px
+// ===================================
+@include mqLg() {
+  .restaurant {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 60px;
+    height: 800px;
+  }
+}

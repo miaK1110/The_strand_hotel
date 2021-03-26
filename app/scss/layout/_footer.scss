@@ -1,0 +1,60 @@
+.l-footer {
+  background: $topSubColor;
+  height: 520px;
+  width: 100%;
+
+  &__infoBox {
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  &__logo {
+    text-align: center;
+  }
+
+  &_copyright {
+    text-align: center;
+  }
+}
+
+// ===================================
+// Media Querie min 600px
+// ===================================
+
+@include mqMd() {
+  .footer-wrapper {
+    background: $topSubColor;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    box-sizing: border-box;
+    .l-footer {
+      height: 520px;
+      width: 50%;
+
+      &__infoBox {
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 20px;
+      }
+
+      &__logo {
+        text-align: center;
+      }
+
+      &_copyright {
+        text-align: center;
+      }
+    }
+  }
+}
+// ===================================
+// Media Querie min 1024px
+// ===================================
+@include mqLg() {
+}
