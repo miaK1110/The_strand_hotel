@@ -66,7 +66,7 @@
 
       &__comment {
         display: block;
-        font-size: 12px;
+        font-size: 14px;
         padding-top: 50px;
       }
     }
@@ -78,7 +78,7 @@
 
 @include mqLg() {
   .c-panel {
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
     box-sizing: border-box;
@@ -115,7 +115,7 @@
 
       &__comment {
         display: block;
-        font-size: 12px;
+        font-size: 16px;
         padding-top: 50px;
       }
     }
