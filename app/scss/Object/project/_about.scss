@@ -42,6 +42,7 @@
 
     &__upperComment,
     &__lowerComment {
+      font-size: 16px;
       display: inline-block;
       text-align: center;
     }
@@ -55,7 +56,7 @@
 @include mqLg() {
   .p-about {
     display: block;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 
     &__title {
@@ -70,6 +71,7 @@
 
     &__upperComment,
     &__lowerComment {
+      font-size: 16px;
       display: inline-block;
       text-align: center;
     }

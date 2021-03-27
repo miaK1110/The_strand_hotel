@@ -16,10 +16,14 @@
       transition: 0.5s;
     }
   }
-  &__comment {
-    display: inline-block;
-    text-align: center;
-    padding: 30px 0;
+  &__comment__wrapper {
+    width: 90%;
+    margin: 0 auto;
+    &__comment {
+      display: inline-block;
+      text-align: center;
+      padding: 30px 0;
+    }
   }
 }
 
