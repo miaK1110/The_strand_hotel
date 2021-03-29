@@ -1,19 +1,16 @@
 .c-hero__container {
-  width: auto;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   // position: relative;
   .hero__img {
     display: inline-block;
     background-image: url('../images/hero.jpg');
-    // background-attachment: fixed;
-    // background-size: cover;
-    // background-position: right 0px bottom 0px;
-    // background-origin: content-box;
+    background-size: cover;
+    background-position: right 30% bottom 20%;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    // display: flex;
   }
 }
 
