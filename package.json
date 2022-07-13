@@ -1,11 +1,11 @@
 {
-  "name": "The-strand-hotel",
+  "name": "the-strand-hotel",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "normalize.css": "^8.0.1",
     "postcss": "^8.2.8",
+    "sass": "^1.53.0",
     "swiper": "^6.5.0"
   },
   "devDependencies": {
@@ -18,7 +18,7 @@
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "style-loader": "^2.0.0"
@@ -28,5 +28,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaK1110/The_strand_hotel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miaK1110/The_strand_hotel/issues"
+  },
+  "homepage": "https://github.com/miaK1110/The_strand_hotel#readme",
+  "description": ""
 }

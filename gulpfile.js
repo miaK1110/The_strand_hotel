@@ -7,7 +7,7 @@ const notify = require('gulp-notify');
 const concat = require('gulp-concat');
 const postcss = require('gulp-postcss');
 const replace = require('gulp-replace');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
 
